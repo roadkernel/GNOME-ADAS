@@ -5,14 +5,14 @@ Gnome Automated Defense & Alert System is a bot for Gnomes that helps with warni
 ## Setup
 Make a database on SupaBase.<br/>
 Create a bot @BotFather.<br/>
-Copy telegram api, link to a db, db key and edit the bot source<br/>
+Copy telegram API, link to a DB, DB key and edit the bot source<br/>
 
 ```python
 bot = telebot.TeleBot("TELE_API")
 supabase_client = supabase.create_client("LINK_TO_BASE", "SUPABASE_KEY")
 ```
 
-Copy telegram user ids and edit this line:
+Copy telegram user IDs that you want to allow <br/>inside the bot and edit this line:
 
 ```python
 registration_keys = ['TELEGRAM_USER_ID', 'TELEGRAM_USER_ID', 'TELEGRAM_USER_ID', 'TELEGRAM_USER_ID']
