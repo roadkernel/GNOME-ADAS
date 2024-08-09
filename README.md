@@ -1,6 +1,6 @@
 # VADAS
 
-Vault Automated Defense & Alert System is a bot for Gnomes that helps with warning everyone in case of an emergency.
+Vault Automated Defense & Alert System is a bot for Vault4 members that helps with warning everyone in case of an emergency.
 
 ## Setup
 Make a database on SupaBase.<br/>
